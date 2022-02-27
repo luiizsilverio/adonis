@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td style="background: 'white'">
-      <img src="https://github.com/luiizsilverio/adonis/blob/main/app/images/adonisjs-logo.svg" />
+      <img src="https://github.com/luiizsilverio/adonis/blob/main/app/images/adonis-logo.jpg" />
     </td>
     <td><h1>ADONIS API</h1></td>
   </tr>
