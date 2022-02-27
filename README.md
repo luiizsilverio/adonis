@@ -1,6 +1,8 @@
 <table>
   <tr>
-    <td><img src="https://github.com/luiizsilverio/adonis/blob/main/app/images/adonisjs-logo.svg" /></td>
+    <td style="background: 'white'">
+      <img src="https://github.com/luiizsilverio/adonis/blob/main/app/images/adonisjs-logo.svg" />
+    </td>
     <td><h1>ADONIS API</h1></td>
   </tr>
 </table>
@@ -19,15 +21,15 @@ Desenvolvido durante o curso [API RESTful com AdonisJS](https://www.youtube.com/
 
 ### Rotas da aplicação
 
-$ node ace list:routes
 | Método | Caminho da Rota | Handler | Nome |
 |---|---|---|---|
-│ HEAD, GET  │ /api/moments                    │ MomentsController.index   │ moments.index     │
-│ POST       │ /api/moments                    │ MomentsController.store   │ moments.store     │
-│ HEAD, GET  │ /api/moments/:id                │ MomentsController.show    │ moments.show      │
-│ PUT, PATCH │ /api/moments/:id                │ MomentsController.update  │ moments.update    │
-│ DELETE     │ /api/moments/:id                │ MomentsController.destroy │ moments.destroy   │
-│ POST       │ /api/moments/:momentId/comments │ CommentsController.store  │                   │
+| GET | /api/moments | MomentsController.index | |
+| POST | /api/moments | MomentsController.store | moments.store |
+| GET | /api/moments/:id | MomentsController.show | moments.show |
+| PATCH | /api/moments/:id | MomentsController.update | moments.update |
+| DELETE | /api/moments/:id | MomentsController.destroy | moments.destroy |
+| POST | /api/moments/:momentId/comments | CommentsController.store | |
+
 
 ## :hammer_and_wrench: Tecnologias
 * __AdonisJS__
